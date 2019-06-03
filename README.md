@@ -5,3 +5,9 @@ Performed time-series clustering analysis to see if there is a common strategies
 2. Filter the timeline for useful events and positions of a player by roles
 3. Calculate the distance between each event and the position of where the player should be to have the most impact.
 4. Create the time series of the player distance throughout the duration of the game.
+5. Perform HAC to perform clustering analysis on all the time series of a single role.
+6. Interpret the resulting clusters:
+
+<img src='Resulting Clusters.png'/>
+
+
