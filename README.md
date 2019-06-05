@@ -1,16 +1,16 @@
 # Lol-Playstyle-Analysis
 Performed time-series clustering analysis to see if there is a common strategies in the game League of Legends divided per role
 
-1. Obtained data through Riot's API for a matches' timeline, which includes events, timestamps and positions on the map the player is.
-2. Filter the timeline for useful events and positions of a player by roles
-3. Calculate the distance between each event and the position of where the player should be to have the most impact.
+1. Obtained data through Riot's API for a matches' timeline. Each timeline is obtained in dictionary format where each event is given information such as frame(1 min intervales), event, timestamp, participants, and position.
+2. Filter the timeline dataframe for the useful events and positions of a player by roles.
+3. Calculate the distance between each event and the position of where I believe the player should be to have impact on the teams' effectivness to win the game. The distance was calculated with the euclidean method.
 
 <img src='map11.png' width="30%"/>
   The map is on a grid of x:14870, y:14980
 
-4. Create the time series of the player distance throughout the duration of the game.
-5. Perform HAC to perform clustering analysis on all the time series of a single role.
-6. Interpret the resulting clusters:
+4. Create the time series of the player distance from designated position throughout the duration of the game.
+5. Perform Hierarchical Agglomerative Clustering to perform group all the time series of a single role into similar positional playstyles over a match.
+6. Display and interpret the resulting clusters(results below is for a top lane role):
 
 <img src='Resulting Clusters.png'/>
 
