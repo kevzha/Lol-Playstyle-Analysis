@@ -11,7 +11,7 @@ Performed time-series clustering analysis to see if there are common strategies 
 4. Create the time series of the player distance from designated position throughout the duration of the game.
 5. Perform Hierarchical Agglomerative Clustering to perform group all the time series of a single role into similar positional playstyles over a match.
 6. Display and interpret the resulting clusters(results below is for a top lane role)
-   <br>Examples of interpretation: The first image shows that the player had a time period where they would play their lane, but then swap to the other side of the map. This is likely due to the player taking the tower and requested to swap lanes to the other side of the map. A bit after the middle of the game, the player focuses more on the middle map likely due to the team deciding to group together to push together and try to go for the win. 
+   <br>Examples of interpretation: The first image shows that the player had a time period where they would play their lane, but then swap to the other side of the map. This is likely due to the player taking the tower and requested to swap lanes to the other side of the map. A bit after the middle of the game, the player focuses more on the middle map likely due to the team deciding to group together to push together and try to push for the win. 
 
 <img src='Resulting Clusters.png'/>
 
