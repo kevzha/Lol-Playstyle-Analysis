@@ -1,7 +1,7 @@
 # Lol-Playstyle-Analysis
 Performed time-series clustering analysis to see if there are common strategies in the game League of Legends divided per role
 
-1. Obtained data through Riot's API for a matches' timeline. Each timeline is obtained in dictionary format where each event is given information such as frame(1 min intervales), event, timestamp, participants, and position.
+1. Obtained data through Riot's API for a matches' timeline. Each timeline is obtained in dictionary format where each event is given information such as frame(1 min intervals), event, timestamp, participants, and position.
 2. Filter the timeline dataframe for the desired events and positions of a player by roles.
 3. Calculate the distance between each event and the position of where I believe the player should be to have impact on the teams' effectivness to win the game. The distance was calculated with the euclidean method.
 
