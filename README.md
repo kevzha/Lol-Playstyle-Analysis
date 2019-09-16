@@ -3,7 +3,7 @@ Performed time-series clustering analysis to see if there are common strategies 
 
 1. Obtained data through Riot's API for matches' timeline. Each timeline is obtained in dictionary format where each event is given information such as frame(1 min intervals), event, timestamp, participants, and position.
 2. Filtered the timeline dataframe for the desired events and positions of a player by roles as some events do not contain positions.
-3. Calculate the distance between each event and the position of where I believe the player should be to have impact on the teams' chances of winning the match. The distance was calculated with the euclidean method.
+3. Calculate the distance between each event and the position of where I believe the player should be to have an impact on the teams' chances of winning the match. The distance was calculated with the euclidean method.
 
 <img src='map11.png' width="30%"/>
   The map is on a grid of x:14870, y:14980
