@@ -1,5 +1,5 @@
 # Lol-Playstyle-Analysis
-Performed time-series clustering analysis to determine if there are common positional strategies in the game, League of Legends, divided by individual roles.
+Performed time-series clustering analysis to determine if there are common positional strategies in the game, League of Legends, divided by roles.
 
 1. Obtained data through Riot's API for matches' timeline. Each timeline is obtained in a dictionary format where each event is given information such as frame(1 min intervals), event, timestamp, participants, and position.
 2. Filtered the timeline dataframe for the desired events and positions of a player by roles. Some events might that did not contain positions were filtered out.
