@@ -2,7 +2,7 @@
 Performed time-series clustering analysis to determine if there are common positional strategies in the game, League of Legends, divided by roles.
 
 1. Obtained data through Riot's API for matches' timeline. Each timeline is obtained in a dictionary format where each event is given information such as frame(1 min intervals), event, timestamp, participants, and position.
-2. Filtered the timeline dataframe for the desired events and positions of a player by roles. Some events might that did not contain positions were filtered out.
+2. Filtered the timeline dataframe for the desired events and positions of a player by roles. Some events that did not contain positions were filtered out.
 3. Calculate the distance between each event and the position of where I believe the player should be to have an impact on the team's chances of winning the match. The distance was calculated using the euclidean method.
 
 <img src='map11.png' width="30%"/>
