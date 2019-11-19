@@ -11,6 +11,6 @@ Performed time-series clustering analysis to determine if there are common posit
 4. Create a time series of the players' distances from my understanding of their 'impactful' position throughout the the game.
 5. Perform Hierarchical Agglomerative Clustering to group all the time series of a single role into similar positional locations throughout the game.
 6. Display and interpret the resulting clusters(results shown below is for the top lane role)
-   <br>Examples of interpretation: The first image shows that the player had a time period where they would stay in their top lane, but then swap to the other side of the map. This can be understood as the player destroying the top lane tower and swapped to the other side of the map in order to obtain the objective on that side of the map. Around the middle of the game, the player was focused on the middle of the map likely due to the team deciding to group together to push as a team towards the enemy base.
+   <br>Examples of interpretation: The first image shows that the player had a time period where they would stay in their top lane, but then swapped to the other side of the map. This can be understood as the player destroying the top lane tower and swapped to the other side of the map in order to obtain the objective on that side of the map. Around the middle of the game, the player was focused on the middle of the map likely due to the team deciding to group together to push as a team towards the enemy base.
 
 <img src='Resulting Clusters.png'/>
