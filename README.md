@@ -6,7 +6,7 @@ Performed time-series clustering analysis to determine if there are common posit
 3. Calculate the distance between each event and the position of where I believe the player should be to have an impact on the team's chances of winning the match. The distance was calculated using the euclidean method.
 
 <img src='map11.png' width="30%"/>
-  The map is on a grid of x:14870, y:14980
+  The map is on a grid of is x:14870, y:14980
 
 4. Create a time series of the players' distances from my understanding of their 'impactful' position throughout the the game.
 5. Perform Hierarchical Agglomerative Clustering to group all the time series of a single role into similar positional locations throughout the game.
